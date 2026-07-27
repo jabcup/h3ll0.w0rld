@@ -1,119 +1,181 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cursos y capacitaciones — H3ll0 W0rld</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cursos y capacitaciones — H3ll0 W0rld</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="site-nav">
+      <div class="nav-inner">
+        <a href="index.html" class="logo"
+          >H<span class="num">3</span>ll<span class="num">0</span> W<span
+            class="num"
+            >0</span
+          >rld<span class="cursor"></span
+        ></a>
+        <button class="nav-toggle" aria-label="Abrir menú">menu</button>
+        <div class="nav-links">
+          <a href="index.html">inicio</a>
+          <a href="servicios.html">servicios</a>
+          <a href="portafolio.html">portafolio</a>
+          <a href="cursos.html" class="active">cursos</a>
+          <a href="contacto.html">contacto</a>
+        </div>
+      </div>
+    </nav>
 
-<nav class="site-nav">
-  <div class="nav-inner">
-    <a href="index.html" class="logo">H<span class="num">3</span>ll<span class="num">0</span> W<span class="num">0</span>rld<span class="cursor"></span></a>
-    <button class="nav-toggle" aria-label="Abrir menú">menu</button>
-    <div class="nav-links">
-      <a href="index.html">inicio</a>
-      <a href="servicios.html">servicios</a>
-      <a href="portafolio.html">portafolio</a>
-      <a href="cursos.html" class="active">cursos</a>
-      <a href="contacto.html">contacto</a>
-    </div>
-  </div>
-</nav>
+    <header class="hero hero-sm">
+      <div class="wrap">
+        <div class="prompt-path">
+          ~/h3ll0w0rld <span class="sep">›</span>
+          <span class="here">cursos</span>
+        </div>
+        <h1>
+          Capacitación técnica
+          <span class="grad">con gente que programa todos los días.</span>
+        </h1>
+        <p class="lead">
+          Formamos equipos y estudiantes con las mismas herramientas y prácticas
+          que usamos para entregar software en producción. Nada de teoría
+          desconectada del trabajo real.
+        </p>
+      </div>
+    </header>
 
-<header class="hero hero-sm">
-  <div class="wrap">
-    <div class="prompt-path">~/h3ll0w0rld <span class="sep">›</span> <span class="here">cursos</span></div>
-    <h1>Capacitación técnica <span class="grad">con gente que programa todos los días.</span></h1>
-    <p class="lead">Formamos equipos y estudiantes con las mismas herramientas y prácticas que usamos para entregar software en producción. Nada de teoría desconectada del trabajo real.</p>
-  </div>
-</header>
+    <section>
+      <div class="wrap">
+        <div class="eyebrow">catálogo</div>
+        <h2 class="section-title">Capacitaciones disponibles</h2>
+        <p class="section-sub">
+          Formato presencial o remoto, para empresas o grupos abiertos. El
+          contenido se ajusta al nivel del equipo.
+        </p>
+        <div class="grid grid-3">
+          <div class="card">
+            <span class="tag">nivel inicial</span>
+            <h3>Fundamentos de desarrollo web</h3>
+            <p>
+              HTML, CSS y JavaScript desde cero, con proyectos reales en cada
+              módulo.
+            </p>
+          </div>
+          <div class="card">
+            <span class="tag">nivel intermedio</span>
+            <h3>Backend y bases de datos</h3>
+            <p>
+              Diseño de APIs, modelado de datos y buenas prácticas para sistemas
+              que van a producción.
+            </p>
+          </div>
+          <div class="card">
+            <span class="tag">nivel intermedio</span>
+            <h3>Frontend moderno</h3>
+            <p>
+              Componentes, estado y arquitectura de interfaces con frameworks
+              actuales.
+            </p>
+          </div>
+          <div class="card">
+            <span class="tag">a medida</span>
+            <h3>Capacitación in-company</h3>
+            <p>
+              Programa diseñado sobre el stack y los problemas específicos de tu
+              equipo.
+            </p>
+          </div>
+          <div class="card">
+            <span class="tag">nivel avanzado</span>
+            <h3>Arquitectura de software</h3>
+            <p>
+              Decisiones de diseño, escalabilidad y mantenibilidad en sistemas
+              grandes.
+            </p>
+          </div>
+          <div class="card">
+            <span class="tag">talleres</span>
+            <h3>Talleres puntuales</h3>
+            <p>
+              Sesiones cortas sobre un tema específico: control de versiones,
+              testing, despliegue, etc.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section>
-  <div class="wrap">
-    <div class="eyebrow">catálogo</div>
-    <h2 class="section-title">Capacitaciones disponibles</h2>
-    <p class="section-sub">Formato presencial o remoto, para empresas o grupos abiertos. El contenido se ajusta al nivel del equipo.</p>
-    <div class="grid grid-3">
-      <div class="card">
-        <span class="tag">nivel inicial</span>
-        <h3>Fundamentos de desarrollo web</h3>
-        <p>HTML, CSS y JavaScript desde cero, con proyectos reales en cada módulo.</p>
+    <section class="tight">
+      <div class="wrap">
+        <div class="eyebrow">metodología</div>
+        <h2 class="section-title">Cómo enseñamos</h2>
+        <div class="steps">
+          <div class="step">
+            <span class="num">01</span>
+            <div>
+              <h3>Diagnóstico previo</h3>
+              <p>Evaluamos el nivel del grupo antes de armar el temario.</p>
+            </div>
+          </div>
+          <div class="step">
+            <span class="num">02</span>
+            <div>
+              <h3>Proyecto guía</h3>
+              <p>
+                Todo el curso gira en torno a construir algo concreto, no solo
+                diapositivas.
+              </p>
+            </div>
+          </div>
+          <div class="step">
+            <span class="num">03</span>
+            <div>
+              <h3>Feedback directo</h3>
+              <p>
+                Revisamos código y decisiones de cada participante, no solo
+                entregables finales.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="card">
-        <span class="tag">nivel intermedio</span>
-        <h3>Backend y bases de datos</h3>
-        <p>Diseño de APIs, modelado de datos y buenas prácticas para sistemas que van a producción.</p>
-      </div>
-      <div class="card">
-        <span class="tag">nivel intermedio</span>
-        <h3>Frontend moderno</h3>
-        <p>Componentes, estado y arquitectura de interfaces con frameworks actuales.</p>
-      </div>
-      <div class="card">
-        <span class="tag">a medida</span>
-        <h3>Capacitación in-company</h3>
-        <p>Programa diseñado sobre el stack y los problemas específicos de tu equipo.</p>
-      </div>
-      <div class="card">
-        <span class="tag">nivel avanzado</span>
-        <h3>Arquitectura de software</h3>
-        <p>Decisiones de diseño, escalabilidad y mantenibilidad en sistemas grandes.</p>
-      </div>
-      <div class="card">
-        <span class="tag">talleres</span>
-        <h3>Talleres puntuales</h3>
-        <p>Sesiones cortas sobre un tema específico: control de versiones, testing, despliegue, etc.</p>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<section class="tight">
-  <div class="wrap">
-    <div class="eyebrow">metodología</div>
-    <h2 class="section-title">Cómo enseñamos</h2>
-    <div class="steps">
-      <div class="step">
-        <span class="num">01</span>
-        <div><h3>Diagnóstico previo</h3><p>Evaluamos el nivel del grupo antes de armar el temario.</p></div>
+    <section class="tight">
+      <div class="wrap card center" style="padding: 48px">
+        <h2 class="section-title mt-0">¿Querés capacitar a tu equipo?</h2>
+        <p class="section-sub" style="margin-left: auto; margin-right: auto">
+          Contanos el nivel del grupo y el objetivo, y armamos un programa a
+          medida.
+        </p>
+        <a href="contacto.html" class="btn btn-primary"
+          >Consultar disponibilidad</a
+        >
       </div>
-      <div class="step">
-        <span class="num">02</span>
-        <div><h3>Proyecto guía</h3><p>Todo el curso gira en torno a construir algo concreto, no solo diapositivas.</p></div>
-      </div>
-      <div class="step">
-        <span class="num">03</span>
-        <div><h3>Feedback directo</h3><p>Revisamos código y decisiones de cada participante, no solo entregables finales.</p></div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<section class="tight">
-  <div class="wrap card center" style="padding:48px;">
-    <h2 class="section-title mt-0">¿Querés capacitar a tu equipo?</h2>
-    <p class="section-sub" style="margin-left:auto;margin-right:auto;">Contanos el nivel del grupo y el objetivo, y armamos un programa a medida.</p>
-    <a href="contacto.html" class="btn btn-primary">Consultar disponibilidad</a>
-  </div>
-</section>
-
-<footer>
-  <div class="wrap">
-    <div class="footer-inner">
-      <a href="index.html" class="logo">H<span class="num">3</span>ll<span class="num">0</span> W<span class="num">0</span>rld</a>
-      <div class="footer-links">
-        <a href="servicios.html">servicios</a>
-        <a href="portafolio.html">portafolio</a>
-        <a href="cursos.html">cursos</a>
-        <a href="contacto.html">contacto</a>
+    <footer>
+      <div class="wrap">
+        <div class="footer-inner">
+          <a href="index.html" class="logo"
+            >H<span class="num">3</span>ll<span class="num">0</span> W<span
+              class="num"
+              >0</span
+            >rld</a
+          >
+          <div class="footer-links">
+            <a href="servicios.html">servicios</a>
+            <a href="portafolio.html">portafolio</a>
+            <a href="cursos.html">cursos</a>
+            <a href="contacto.html">contacto</a>
+          </div>
+        </div>
+        <div class="footer-note">
+          © <span id="year"></span> H3ll0 W0rld. Todos los derechos reservados.
+        </div>
       </div>
-    </div>
-    <div class="footer-note">© 2026 H3ll0 W0rld. Todos los derechos reservados.</div>
-  </div>
-</footer>
+    </footer>
 
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

@@ -1,116 +1,180 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>H3ll0 W0rld — Software a medida</title>
-<meta name="description" content="Estudio de desarrollo de software: soluciones a medida, capacitaciones y proyectos propios.">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>H3ll0 W0rld — Software a medida</title>
+    <meta
+      name="description"
+      content="Estudio de desarrollo de software: soluciones a medida, capacitaciones y proyectos propios."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="site-nav">
+      <div class="nav-inner">
+        <a href="index.html" class="logo"
+          ><span class="tag-bracket">&lt;</span>H3ll0 W0rld<span
+            class="tag-bracket"
+            >/&gt;</span
+          ></a
+        >
+        <button class="nav-toggle" aria-label="Abrir menú">menu</button>
+        <div class="nav-links">
+          <a href="index.html" class="active">inicio</a>
+          <a href="servicios.html">servicios</a>
+          <a href="portafolio.html">portafolio</a>
+          <a href="cursos.html">cursos</a>
+          <a href="contacto.html">contacto</a>
+        </div>
+      </div>
+    </nav>
 
-<nav class="site-nav">
-  <div class="nav-inner">
-    <a href="index.html" class="logo"><span class="tag-bracket">&lt;</span>H3ll0 W0rld<span class="tag-bracket">/&gt;</span></a>
-    <button class="nav-toggle" aria-label="Abrir menú">menu</button>
-    <div class="nav-links">
-      <a href="index.html" class="active">inicio</a>
-      <a href="servicios.html">servicios</a>
-      <a href="portafolio.html">portafolio</a>
-      <a href="cursos.html">cursos</a>
-      <a href="contacto.html">contacto</a>
-    </div>
-  </div>
-</nav>
+    <header class="hero">
+      <div class="wrap">
+        <div class="prompt-path">
+          ~/h3ll0w0rld <span class="sep">›</span>
+          <span class="here">inicio</span>
+        </div>
+        <h1>
+          Construimos software
+          <span class="grad">que no rompe a medianoche.</span>
+        </h1>
+        <p class="lead">
+          Somos un equipo de desarrolladores que diseña sistemas a medida, dicta
+          capacitaciones técnicas y construye productos propios. Si tu idea
+          corre en un servidor, la sabemos construir.
+        </p>
+        <div class="hero-actions">
+          <a href="contacto.html" class="btn btn-primary"
+            >Contanos tu proyecto →</a
+          >
+          <a href="portafolio.html" class="btn btn-ghost">Ver portafolio</a>
+        </div>
+      </div>
+    </header>
 
-<header class="hero">
-  <div class="wrap">
-    <div class="prompt-path">~/h3ll0w0rld <span class="sep">›</span> <span class="here">inicio</span></div>
-    <h1>Construimos software <span class="grad">que no rompe a medianoche.</span></h1>
-    <p class="lead">Somos un equipo de desarrolladores que diseña sistemas a medida, dicta capacitaciones técnicas y construye productos propios. Si tu idea corre en un servidor, la sabemos construir.</p>
-    <div class="hero-actions">
-      <a href="contacto.html" class="btn btn-primary">Contanos tu proyecto →</a>
-      <a href="portafolio.html" class="btn btn-ghost">Ver portafolio</a>
-    </div>
-  </div>
-</header>
+    <section>
+      <div class="wrap">
+        <div class="eyebrow">qué hacemos</div>
+        <h2 class="section-title">Tres formas de trabajar con nosotros</h2>
+        <p class="section-sub">
+          De la idea al deploy, y de vuelta al aula si tu equipo necesita subir
+          de nivel.
+        </p>
+        <div class="grid grid-3">
+          <div class="card">
+            <div class="icon-box">&lt;/&gt;</div>
+            <span class="tag">servicios</span>
+            <h3>Software a medida</h3>
+            <p>
+              Sistemas, plataformas web e integraciones diseñadas
+              específicamente para tu operación, no plantillas genéricas.
+            </p>
+          </div>
+          <div class="card">
+            <div class="icon-box">[ ]</div>
+            <span class="tag">portafolio</span>
+            <h3>Proyectos construidos</h3>
+            <p>
+              De reservas universitarias a bibliotecas virtuales: mirá los
+              sistemas que ya pusimos en producción.
+            </p>
+          </div>
+          <div class="card">
+            <div class="icon-box">&gt;_</div>
+            <span class="tag">cursos</span>
+            <h3>Capacitación técnica</h3>
+            <p>
+              Formamos equipos y estudiantes en las mismas herramientas que
+              usamos todos los días para entregar software real.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section>
-  <div class="wrap">
-    <div class="eyebrow">qué hacemos</div>
-    <h2 class="section-title">Tres formas de trabajar con nosotros</h2>
-    <p class="section-sub">De la idea al deploy, y de vuelta al aula si tu equipo necesita subir de nivel.</p>
-    <div class="grid grid-3">
-      <div class="card">
-        <div class="icon-box">&lt;/&gt;</div>
-        <span class="tag">servicios</span>
-        <h3>Software a medida</h3>
-        <p>Sistemas, plataformas web e integraciones diseñadas específicamente para tu operación, no plantillas genéricas.</p>
+    <section class="tight">
+      <div class="wrap">
+        <div class="eyebrow">cómo trabajamos</div>
+        <h2 class="section-title">Un proceso sin sorpresas</h2>
+        <div class="steps">
+          <div class="step">
+            <span class="num">01</span>
+            <div>
+              <h3>Entendemos el problema</h3>
+              <p>
+                Levantamiento de requerimientos con tu equipo, sin jerga
+                innecesaria.
+              </p>
+            </div>
+          </div>
+          <div class="step">
+            <span class="num">02</span>
+            <div>
+              <h3>Proponemos arquitectura</h3>
+              <p>
+                Elegimos el stack correcto para tu escala, no el que esté de
+                moda.
+              </p>
+            </div>
+          </div>
+          <div class="step">
+            <span class="num">03</span>
+            <div>
+              <h3>Construimos en iteraciones</h3>
+              <p>
+                Entregas cortas, demos frecuentes, sin cajas negras de seis
+                meses.
+              </p>
+            </div>
+          </div>
+          <div class="step">
+            <span class="num">04</span>
+            <div>
+              <h3>Acompañamos en producción</h3>
+              <p>
+                Soporte y mantenimiento después del lanzamiento, no solo hasta
+                el deploy.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="card">
-        <div class="icon-box">[ ]</div>
-        <span class="tag">portafolio</span>
-        <h3>Proyectos construidos</h3>
-        <p>De reservas universitarias a bibliotecas virtuales: mirá los sistemas que ya pusimos en producción.</p>
-      </div>
-      <div class="card">
-        <div class="icon-box">&gt;_</div>
-        <span class="tag">cursos</span>
-        <h3>Capacitación técnica</h3>
-        <p>Formamos equipos y estudiantes en las mismas herramientas que usamos todos los días para entregar software real.</p>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<section class="tight">
-  <div class="wrap">
-    <div class="eyebrow">cómo trabajamos</div>
-    <h2 class="section-title">Un proceso sin sorpresas</h2>
-    <div class="steps">
-      <div class="step">
-        <span class="num">01</span>
-        <div><h3>Entendemos el problema</h3><p>Levantamiento de requerimientos con tu equipo, sin jerga innecesaria.</p></div>
+    <section class="tight">
+      <div class="wrap card center" style="padding: 48px">
+        <h2 class="section-title mt-0">¿Tenés un proyecto en mente?</h2>
+        <p class="section-sub" style="margin-left: auto; margin-right: auto">
+          Contanos qué necesitás y te respondemos con una propuesta concreta.
+        </p>
+        <a href="contacto.html" class="btn btn-primary">Escribinos</a>
       </div>
-      <div class="step">
-        <span class="num">02</span>
-        <div><h3>Proponemos arquitectura</h3><p>Elegimos el stack correcto para tu escala, no el que esté de moda.</p></div>
-      </div>
-      <div class="step">
-        <span class="num">03</span>
-        <div><h3>Construimos en iteraciones</h3><p>Entregas cortas, demos frecuentes, sin cajas negras de seis meses.</p></div>
-      </div>
-      <div class="step">
-        <span class="num">04</span>
-        <div><h3>Acompañamos en producción</h3><p>Soporte y mantenimiento después del lanzamiento, no solo hasta el deploy.</p></div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<section class="tight">
-  <div class="wrap card center" style="padding:48px;">
-    <h2 class="section-title mt-0">¿Tenés un proyecto en mente?</h2>
-    <p class="section-sub" style="margin-left:auto;margin-right:auto;">Contanos qué necesitás y te respondemos con una propuesta concreta.</p>
-    <a href="contacto.html" class="btn btn-primary">Escribinos</a>
-  </div>
-</section>
-
-<footer>
-  <div class="wrap">
-    <div class="footer-inner">
-      <a href="index.html" class="logo"><span class="tag-bracket">&lt;</span>H3ll0 W0rld<span class="tag-bracket">/&gt;</span></a>
-      <div class="footer-links">
-        <a href="servicios.html">servicios</a>
-        <a href="portafolio.html">portafolio</a>
-        <a href="cursos.html">cursos</a>
-        <a href="contacto.html">contacto</a>
+    <footer>
+      <div class="wrap">
+        <div class="footer-inner">
+          <a href="index.html" class="logo"
+            ><span class="tag-bracket">&lt;</span>H3ll0 W0rld<span
+              class="tag-bracket"
+              >/&gt;</span
+            ></a
+          >
+          <div class="footer-links">
+            <a href="servicios.html">servicios</a>
+            <a href="portafolio.html">portafolio</a>
+            <a href="cursos.html">cursos</a>
+            <a href="contacto.html">contacto</a>
+          </div>
+        </div>
+        <div class="footer-note">
+          © <span id="year"></span> H3ll0 W0rld. Todos los derechos reservados.
+        </div>
       </div>
-    </div>
-    <div class="footer-note">© 2026 H3ll0 W0rld. Todos los derechos reservados.</div>
-  </div>
-</footer>
+    </footer>
 
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
